@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  background-image: url("/assets/wallpaper.jpg");
+ background-size: cover;
+ background-color: #cccccc;
+ display: flex;
+
+/* This centers our sketch horizontally. */
+justify-content: center;
+
+/* This centers our sketch vertically. */
+align-items: center;
+}
+canvas {
+  display: block;
+  margin: auto;
+  padding: auto;
+  border: 40px solid white;
+   box-shadow: 10px 5px 5px #413B06;
+}
