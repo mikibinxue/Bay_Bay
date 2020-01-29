@@ -80,7 +80,7 @@ function preload() {
 
 function setup() {
   // createCanvas(600, 600);
-  c = createCanvas(900, 900);
+  c = createCanvas(800, 800);
   video = createCapture(VIDEO);
   video.hide();
   poseNet = ml5.poseNet(video, modelReady);
